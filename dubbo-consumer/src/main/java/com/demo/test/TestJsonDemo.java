@@ -11,7 +11,6 @@ public class TestJsonDemo {
         User user = new User();
         user.setAge(18);
         user.setId(101);
-        user.setName("test");
         String result = JSON.toJSONString(user);
     }
 
